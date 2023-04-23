@@ -17,14 +17,14 @@ hidePasswordIcon.addEventListener('click', function() {
 });
 
 
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  // Display the 404 page
-  window.location.href = '404.html';
+// form.addEventListener('submit', (event) => {
+//   event.preventDefault();
+//   // Display the 404 page
+//   window.location.href = '404.html';
 
-  // Store the email and password in local storage
-  const email = document.getElementById('username').value;
-  const password = document.getElementById('password').value;
-  localStorage.setItem('email', email);
-  localStorage.setItem('password', password);
-});
+//   // Store the email and password in local storage
+//   const email = document.getElementById('username').value;
+//   const password = document.getElementById('password').value;
+//   localStorage.setItem('email', email);
+//   localStorage.setItem('password', password);
+// });
