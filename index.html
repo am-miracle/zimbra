@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Zimbra Form page</title>
+</head>
+<body>
+    <section class="container">
+        <div class="inner-container">
+            <h1>Zimbra</h1>
+            <p>Log In</p>
+            <form>
+                <div class="inner-form">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+                <div class="inner-form">
+                    <label for="password"> Password:</label>
+                    <input type="password" name="password" id="password" required>
+                    <i class="fas fa-eye password-icon" id="show-password-icon"></i>
+                    <i class="fas fa-eye-slash password-icon" id="hide-password-icon"></i>
+                </div>
+                <div class="inner-form login-section">
+                    <div>
+                        <input type="checkbox" name="remember-me" id="remember-me">
+                        <label for="remember-me">Remember me:</label>
+                    </div>
+                    <button type="submit">Log in</button>
+                </div>
+            </form>
+        </div>
+        <div class="select-section">
+            <label>Version</label>
+            <select name="select-field">
+                <option value="option1">Default</option>
+                <option value="option2">Classic</option>
+                <option value="option3">Modern</option>
+            </select>
+        </div>
+    </section>
+    <footer>Copyright © 2005-2023 Synacor, Inc. All rights reserved. "Zimbra" is a registered trademark of Synacor, Inc.</footer>
+
+    <script src="/app.js"></script>
+</body>
+</html>
